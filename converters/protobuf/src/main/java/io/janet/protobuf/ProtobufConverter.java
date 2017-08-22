@@ -1,4 +1,4 @@
-package io.techery.janet.protobuf;
+package io.janet.protobuf;
 
 import com.google.protobuf.AbstractMessageLite;
 import com.google.protobuf.MessageLite;
@@ -9,10 +9,10 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.lang.reflect.Type;
 
-import io.techery.janet.body.ActionBody;
-import io.techery.janet.body.BytesArrayBody;
-import io.techery.janet.converter.Converter;
-import io.techery.janet.converter.ConverterException;
+import io.janet.body.ActionBody;
+import io.janet.body.BytesArrayBody;
+import io.janet.converter.Converter;
+import io.janet.converter.ConverterException;
 
 public class ProtobufConverter implements Converter {
 
