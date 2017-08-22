@@ -1,4 +1,4 @@
-package io.techery.janet.body.util;
+package io.janet.body.util;
 
 import java.io.ByteArrayOutputStream;
 import java.io.Closeable;

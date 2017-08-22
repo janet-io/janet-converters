@@ -1,4 +1,4 @@
-package io.techery.janet.gson;
+package io.janet.gson;
 
 import com.google.gson.Gson;
 
@@ -7,10 +7,10 @@ import java.io.InputStreamReader;
 import java.io.UnsupportedEncodingException;
 import java.lang.reflect.Type;
 
-import io.techery.janet.body.ActionBody;
-import io.techery.janet.body.BytesArrayBody;
-import io.techery.janet.converter.Converter;
-import io.techery.janet.converter.ConverterException;
+import io.janet.body.ActionBody;
+import io.janet.body.BytesArrayBody;
+import io.janet.converter.Converter;
+import io.janet.converter.ConverterException;
 
 public class GsonConverter implements Converter {
     private final Gson gson;

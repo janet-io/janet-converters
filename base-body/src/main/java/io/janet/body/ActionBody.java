@@ -1,4 +1,4 @@
-package io.techery.janet.body;
+package io.janet.body;
 
 import java.io.IOException;
 import java.io.InputStream;

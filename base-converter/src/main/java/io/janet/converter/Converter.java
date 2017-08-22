@@ -1,8 +1,8 @@
-package io.techery.janet.converter;
+package io.janet.converter;
 
 import java.lang.reflect.Type;
 
-import io.techery.janet.body.ActionBody;
+import io.janet.body.ActionBody;
 
 public interface Converter {
 

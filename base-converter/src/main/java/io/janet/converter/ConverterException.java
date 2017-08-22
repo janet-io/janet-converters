@@ -1,4 +1,4 @@
-package io.techery.janet.converter;
+package io.janet.converter;
 
 public class ConverterException extends RuntimeException {
 
